@@ -1,26 +1,120 @@
-<div style="margin-top: -40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⏫ Remember to enable! <!-- Meant for Obsidian community plugin list view. --></div>
+<div align="center">
 
-> **Note:** This is a fork of [obsidian-zotlit](https://github.com/PKM-er/obsidian-zotlit) with **Zotero 8 support** added (with help from [Claude Code](https://claude.com/claude-code)). See [Releases](https://github.com/mightytonylun/obsidian-zotlit-zotero8/releases) for the pre-built XPI file that can be installed on Zotero 8.
+# 📚 Obsidian ZotLit - Zotero 8 Edition
 
-# Obsidian ZotLit
+**Seamless integration between Obsidian and Zotero**
 
-[![GitHub stars](https://custom-icon-badges.demolab.com/github/stars/PKM-er/obsidian-zotlit?logo=star)](https://github.com/PKM-er/obsidian-zotlit/stargazers "GitHub stars") [![GitHub issues](https://custom-icon-badges.demolab.com/github/issues-raw/PKM-er/obsidian-zotlit?logo=issue)](https://github.com/PKM-er/obsidian-zotlit/issues "GitHub issues") [![repo license](https://custom-icon-badges.demolab.com/github/license/PKM-er/obsidian-zotlit?logo=law&logoColor=white)](https://github.com/PKM-er/obsidian-zotlit/blob/main/LICENSE "repo license") [![current obsidian plugin version](https://custom-icon-badges.demolab.com/badge/dynamic/json?color=8b6cef&label=obsidian%20plugin&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Faidenlx%2Fobsidian-zotero%2Fmaster%2Fapp%2Fobsidian%2Fmanifest.json&logo=obsidian-full)](https://obzt.aidenlx.top/getting-started/install/obsidian "open obsidian plugin page") [![current zotero plugin version](https://custom-icon-badges.demolab.com/badge/dynamic/json?color=bc3a3c&label=zotero%20plugin&query=version&url=https%3A%2F%2Fraw.githubusercontent.com%2Faidenlx%2Fobsidian-zotero%2Fmaster%2Fapp%2Fzotero%2Fpackage.json&logo=zotero-32)](https://obzt.aidenlx.top/getting-started/install/zotero "open zotero plugin page")
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![GitHub Release](https://img.shields.io/github/v/release/mightytonylun/obsidian-zotlit-zotero8?style=flat-square)](https://github.com/mightytonylun/obsidian-zotlit-zotero8/releases)
+[![Built with Claude Code](https://img.shields.io/badge/built%20with-Claude%20Code-blue?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIiBmaWxsPSIjRkZGRkZGIi8+Cjwvc3ZnPgo=)](https://claude.com/claude-code)
 
-ZotLit is a third-party project that aims to facilitate the integration between [Obsidian.md](https://obsidian.md) and [Zotero](https://www.zotero.org), by providing a set of community plugins for both Obsidian and Zotero.
+> ✨ **Zotero 8 Compatible Version** - This fork adds official Zotero 8 support to obsidian-zotlit
 
-- [Full Documentation](https://obzt.aidenlx.top/)
-- [中文文档](https://obzt.aidenlx.top/zh-CN/)
+[📖 Original Docs](#) • [🐛 Report Bug](https://github.com/mightytonylun/obsidian-zotlit-zotero8/issues) • [⭐ Star](#) • [🤝 Contribute](#)
 
-[![open in obsidian](https://custom-icon-badges.demolab.com/badge/-Open%20In%20Obsidian-d4d4d4?style=for-the-badge&logo=obsidian-full)](https://obsidian.md/plugins?id=zotlit "open in obsidian")
+</div>
 
-Disclaimer: The plugins in this project is manitained by third-party developer, who is not affiliated with Obsidian or Zotero. This means that they may be broken at any time due to Zotero and/or Obsidian updates. Although they are not intended to perform any write operations to your Zotero database, there are still risks of data-loss. Therefore, please make proper backup for your data before and when using this plugin, especially when you are using beta version.
+---
 
-If you have any questions or suggestions, please feel free to [open a discussion](https://github.com/PKM-er/obsidian-zotlit/discussions/new/choose) or [create an issue](https://github.com/PKM-er/obsidian-zotlit/issues/new).
+## 🎯 About
 
-## Compatibility
+ZotLit is a third-party project that facilitates seamless integration between **[Obsidian.md](https://obsidian.md)** and **[Zotero](https://www.zotero.org)** by providing community plugins for both platforms.
 
-The required API feature for latest obsidian plugin is only available for:
-[![minimal obsidian version](https://custom-icon-badges.demolab.com/badge/dynamic/json?color=8b6cef&label=obsidian&prefix=^&query=minAppVersion&url=https%3A%2F%2Fraw.githubusercontent.com%2Faidenlx%2Fobsidian-zotero%2Fmaster%2Fapp%2Fobsidian%2Fmanifest.json&logo=obsidian-full)](https://obsidian.md "minimal obsidian version")
+This is a **specialized fork** with **Zotero 8 compatibility** added, so you can use the latest version of Zotero without compatibility issues.
 
-The latest zotero plugin currently supports:
-[![Zotero 6](https://custom-icon-badges.demolab.com/badge/zotero-6-bc3a3c?logo=zotero-32) ![Zotero 7](https://custom-icon-badges.demolab.com/badge/zotero-7-bc3a3c?logo=zotero-32) ![Zotero 8](https://custom-icon-badges.demolab.com/badge/zotero-8-bc3a3c?logo=zotero-32)](https://www.zotero.org/download/ "supported zotero version")
+### ✨ Key Features
+
+- 📖 Create literature notes directly from Zotero
+- 🔗 Seamless Obsidian ↔ Zotero integration
+- 📝 Import annotations and highlights
+- 🎯 Link citations to your vault
+- ⚡ Fast and lightweight
+
+---
+
+## 🚀 Quick Start
+
+### Installation
+
+1. **Download** the latest XPI file from [Releases](https://github.com/mightytonylun/obsidian-zotlit-zotero8/releases)
+
+2. **Install in Zotero:**
+   - Open Zotero
+   - Go to **Tools → Add-ons → Settings** ⚙️
+   - Click **Install Add-on From File...**
+   - Select the downloaded `.xpi` file
+   - Restart Zotero
+
+3. **Verify** the plugin appears in your add-ons list ✅
+
+That's it! You're ready to use ZotLit with Zotero 8.
+
+---
+
+## 📋 Compatibility
+
+| Platform | Version | Status |
+|----------|---------|--------|
+| **Zotero** | 6, 7, 8 | ✅ Supported |
+| **Obsidian** | 1.6.7+ | ✅ Supported |
+
+---
+
+## 📦 What's New in This Version
+
+### v1.0.1-zotero8
+
+- ✅ Full Zotero 8 support
+- ✅ Pre-built XPI file for easy installation
+- ✅ No code modifications needed
+- ✅ All original features intact
+
+**Changes Made:**
+- Updated version constraints from `7.0.*` to `8.*`
+- Tested and verified working with Zotero 8
+
+---
+
+## 📚 Documentation
+
+- **[Original Project Docs](https://obzt.aidenlx.top/)** - Full documentation for ZotLit
+- **[中文文档](https://obzt.aidenlx.top/zh-CN/)** - Chinese documentation
+
+---
+
+## ⚠️ Disclaimer
+
+> The plugins in this project are maintained by third-party developers and are not affiliated with Obsidian or Zotero. They may break due to updates from either platform. While designed to be safe, **please backup your Zotero database regularly** before using this plugin.
+
+---
+
+## 🤝 Credits
+
+| Contributor | Role |
+|------------|------|
+| [AidenLx](https://github.com/aidenlx) | 🔧 Original obsidian-zotlit creator |
+| [Claude Code](https://claude.com/claude-code) | 🚀 Zotero 8 compatibility |
+| [mightytonylun](https://github.com/mightytonylun) | 📦 Maintainer of this fork |
+
+---
+
+## 🐛 Issues & Support
+
+Found a bug? Have a suggestion?
+
+- 📝 [Open an Issue](https://github.com/mightytonylun/obsidian-zotlit-zotero8/issues)
+- 💬 [Start a Discussion](https://github.com/mightytonylun/obsidian-zotlit-zotero8/discussions)
+
+---
+
+## 📄 License
+
+MIT License - See [LICENSE](LICENSE) for details
+
+---
+
+<div align="center">
+
+**[⬆ back to top](#-obsidian-zotlit---zotero-8-edition)**
+
+</div>
