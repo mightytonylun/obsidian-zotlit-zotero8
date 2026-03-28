@@ -1,6 +1,6 @@
 <div style="margin-top: -40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⏫ Remember to enable! <!-- Meant for Obsidian community plugin list view. --></div>
 
-> **Note:** This is a fork of [obsidian-zotlit](https://github.com/PKM-er/obsidian-zotlit) with **Zotero 8 support** added. See [Releases](https://github.com/mightytonylun/obsidian-zotlit-zotero8/releases) for the pre-built XPI file.
+> **Note:** This is a fork of [obsidian-zotlit](https://github.com/PKM-er/obsidian-zotlit) with **Zotero 8 support** added (with help from [Claude Code](https://claude.com/claude-code)). See [Releases](https://github.com/mightytonylun/obsidian-zotlit-zotero8/releases) for the pre-built XPI file that can be installed on Zotero 8.
 
 # Obsidian ZotLit
 
