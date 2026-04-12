@@ -41,6 +41,17 @@
             "strict_max_version": "7.0.*"
           }
         }
+      },
+      {
+        "version": "1.2.0",
+        "update_link": "https://github.com/mightytonylun/obsidian-zotlit-zotero8/releases/download/v1.2.0/zotero-obsidian-note-1.2.0-zotero8-9.xpi",
+        "update_info_url": "https://github.com/mightytonylun/obsidian-zotlit-zotero8/releases/tag/v1.2.0",
+        "applications": {
+          "zotero": {
+            "strict_min_version": "6.999",
+            "strict_max_version": "9.*"
+          }
+        }
       }
     ]
   }
